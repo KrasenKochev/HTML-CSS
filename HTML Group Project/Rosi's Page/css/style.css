@@ -1,0 +1,149 @@
+html, body, ul,ol,h1,h2,h3,h4,h5,h6,p, hr{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff4eb;
+    padding: 16px;
+    font-family: Calibri;
+    /*margin: 16px;*/
+}
+
+nav ul li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #61523e;
+    font-family: "Palatino Linotype";
+    font-weight: 600;
+    font-size: 22px;
+}
+
+h1 {
+    color: #b29675;
+    text-align: center;
+    margin: 30px;
+    font-family: Lucida Handwriting;
+    font-size: 45px;
+
+}
+
+.short-description {
+    margin:30px;
+}
+
+hr {
+    margin:20px;
+}
+
+h2 {
+    color: #d3b58a;
+    font-family: Lucida Handwriting;
+}
+
+li {
+    color: #61523e;
+    font-style: italic;
+}
+
+.main-image-container {
+    display: flex;
+    padding: 16px;
+}
+.main-image {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.ingredients-container {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.ingredients-container-recipes {
+    display: flex;
+    flex-direction: column;
+}
+.ingredients-container-recipes img {
+    margin-right: 15px;
+    height: 25px;
+}
+.ingredients-container ul li{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    list-style-type: none;
+
+}
+.ingredients {
+    padding: 16px
+}
+
+.preparation-section {
+    margin: 35px;
+}
+
+.preparation-skewers, .marinated-skewers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.preparation-list li {
+    padding: 6px;
+}
+.skewers-container {
+    display: flex;
+    justify-content: space-between;
+}
+.skewers-first-heading {
+    text-align: center;
+    margin: 50px;
+}
+
+.skewers-second-heading {
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    color: #61523e;
+    font-style: italic;
+    text-align: center;
+}
+
+.serve-prep-storage {
+    margin: 40px;
+}
+.serve-prep-storage ul li {
+    list-style-type: none;
+}
+
+.homepage-button {
+    background: #cdb08a;
+    color:white;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
+    display: flex;
+}
+.homepage-button a {
+    text-decoration: none;
+    color: #61523e;
+}
+.homepage-button:hover {
+    background: antiquewhite;
+    color:#d3b58a;
+}
+
+footer {
+    color: #61523e;
+    font-style: italic;
+    text-align: center;
+}
+

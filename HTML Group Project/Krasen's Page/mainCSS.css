@@ -1,0 +1,51 @@
+.recipe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F1D6B2;
+}
+#logoEli{
+    background-image: url(project.images/Eli.png);
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 200px;
+    height: 300px;
+}
+#logoKate{
+    background-image: url(project.images/Kate.png);
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 250px;
+    height: 300px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'left left middle middle right right'
+    'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.right {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+    grid-area: left;
+}
+/* Style the right column */
+.right {
+    grid-area: right;
+}
+.styleOfComment{
+    background-color: #8bc34a;
+}

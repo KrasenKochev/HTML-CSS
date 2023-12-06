@@ -1,0 +1,191 @@
+/* DOYCHIN'S, DARI'S AND KRASI'S SECTION */
+/* container */
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* photos */
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align-all: center;
+    padding: 20px;
+}
+
+/* image */
+.photo img {
+    width: auto;
+    height: 300px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+/* title */
+.photo-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* DOYCHIN'S, DARI'S AND KRASI'S SECTION */
+
+/* ELI'S SECTION */
+.grid-container {
+    display: grid;
+    grid-template-columns: 41% 63%
+}
+
+nav li {
+    display: inline;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#header_image {
+< img src = "../images/home_header.jpg" >
+}
+
+#top_navigation {
+    font-size: 20px;
+}
+
+/* ELI'S SECTION */
+
+/* ROSI'S SECTION */
+h1 {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background: #f8fff7;
+    font-family: "Palatino Linotype";
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: 16px;
+
+}
+
+.description ul li {
+    color: #578a3c;
+    list-style-type: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    color: #578a3c;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.social-icons {
+    margin: auto;
+    text-align: center;
+}
+
+.fa {
+    padding: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* ROSI'S SECTION */
+
+/*!* KATE'S SECTION *!*/
+/**{*/
+/*    margin: 0px;*/
+/*    padding: 0;*/
+
+/*    font-family: "Palatino Linotype";*/
+/*    box-sizing: content-box;*/
+/*}*/
+.other {
+    text-align: center;
+    margin-top: 100px;
+    color: darkolivegreen;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 70%;
+    padding: 100px 15%;
+    margin-right: -100px;
+    background: white;
+    color: darkolivegreen;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+    grid-auto-columns: auto;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+form input {
+    width: 400px;
+    higth: 80px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+form button {
+    background: transparent;
+    border: darkolivegreen 2px solid;
+    color: darkolivegreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.col-3 {
+    margin-bottom: 10px;
+
+}
+
+/*!* KATE'S SECTION *!*/

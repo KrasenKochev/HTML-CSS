@@ -1,0 +1,74 @@
+body {
+    background-image: url("project.images/chocoBack.jpg");    font-family: Calibri;
+    font-size: 17px;
+    background-color: coral;
+    color: saddlebrown;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    margin-left: auto;
+    border: 1px brown;
+    display: block;
+    align-self: auto;
+
+}
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background-color: indianred;
+    color: brown;
+    border-radius: 8px;
+}
+.recipe__title{
+    color: white;
+    background-color: indianred;
+    padding: 2em;
+    text-align: center;
+}
+h2{
+align-self: auto;
+}
+.header-button{
+    background-color: indianred;
+    color: black;
+    box-sizing: content-box;
+    padding: 2em;
+}
+li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    align-self: end;
+    text-align: center;
+
+}
+ol{
+    margin-right: 50px;
+    align-self: self-end;
+    text-align: -moz-left;
+}
+
+.recipeInstructions{
+    margin-bottom: 2px;
+    align-self: center;
+}
+ul{
+    list-style: decimal;
+    padding-left: 20px;
+}
+#listDecimal{
+    list-style: decimal;
+}
+.chocolateStyle{
+    color: #5C3E28;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+}
+
+
+

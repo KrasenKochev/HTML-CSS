@@ -1,0 +1,96 @@
+
+* {
+    font-family: "Lucida Calligraphy", fantasy;
+    box-sizing: border-box;
+    background: #ffe8ba;
+    margin: 0;
+    padding: 0;
+}
+
+.head-container {
+    display: flex;
+    color: darkolivegreen;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.heading-section h1, h2 {
+    margin-bottom: 25px;
+
+}
+
+.content-container {
+    display: flex;
+    padding: 20px;
+}
+
+.text-section {
+    border: 2px solid darkolivegreen;
+    border-radius: 6px;
+    color: darkolivegreen;
+    width: 50%;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+.ingredients, .icing, .instructions {
+    margin-bottom: 20px;
+}
+
+.ingredients ul li,
+.icing ul li,
+.instructions ol li {
+    margin-bottom: 5px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid darkolivegreen;
+    color: darkolivegreen;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+    color: #ffe8ba;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 1.5em;
+    background-color: darkolivegreen;
+    color: darkolivegreen;
+    border-radius: 8px;
+}
+footer h2 {
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+
